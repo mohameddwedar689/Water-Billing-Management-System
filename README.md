@@ -81,7 +81,7 @@ This project is divided into two main parts, frontend and backend,  Our backend 
 
 ## Samples
 
-![](C:\Users\Mohamed\Desktop\System Design Project\Project Sample\project.gif)
+![Sample Video](https://user-images.githubusercontent.com/77099631/148656885-42243c69-7de7-4bd0-be6c-a9541ed33fa5.gif)
 
 ## Screenshots
 
