@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A72361B2-2EF5-4694-84D7-6E5DB82B97AB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication12</RootNamespace>
+    <AssemblyName>WindowsFormsApplication12</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="aboutas.Designer.cs">
+      <DependentUpon>aboutas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminhome.Designer.cs">
+      <DependentUpon>adminhome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminlogin.Designer.cs">
+      <DependentUpon>adminlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="billpaymentcontrol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="billpaymentcontrol.Designer.cs">
+      <DependentUpon>billpaymentcontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conadminform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="conadminform.Designer.cs">
+      <DependentUpon>conadminform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consumptionuser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="consumptionuser.Designer.cs">
+      <DependentUpon>consumptionuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="debtsadminpage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="debtsadminpage.Designer.cs">
+      <DependentUpon>debtsadminpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="debtsuser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="debtsuser.Designer.cs">
+      <DependentUpon>debtsuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homecs.Designer.cs">
+      <DependentUpon>Homecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homepageadmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="homepageadmin.Designer.cs">
+      <DependentUpon>homepageadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepagecontrol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Homepagecontrol.Designer.cs">
+      <DependentUpon>Homepagecontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signup.Designer.cs">
+      <DependentUpon>signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Techsupport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Techsupport.Designer.cs">
+      <DependentUpon>Techsupport.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aboutas.resx">
+      <DependentUpon>aboutas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminhome.resx">
+      <DependentUpon>adminhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminlogin.resx">
+      <DependentUpon>adminlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="billpaymentcontrol.resx">
+      <DependentUpon>billpaymentcontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conadminform.resx">
+      <DependentUpon>conadminform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consumptionuser.resx">
+      <DependentUpon>consumptionuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="debtsadminpage.resx">
+      <DependentUpon>debtsadminpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="debtsuser.resx">
+      <DependentUpon>debtsuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homecs.resx">
+      <DependentUpon>Homecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homepageadmin.resx">
+      <DependentUpon>homepageadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepagecontrol.resx">
+      <DependentUpon>Homepagecontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Techsupport.resx">
+      <DependentUpon>Techsupport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mds_logo_default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6ff784d280759a87361a9c5b15d26d1b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gmail-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paid-bill-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-page-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-card-payment-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-payment-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-card-payment-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-card-payment-502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-drop-counter-58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-rising-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-technical-support-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-team-58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-information-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-initiate-money-transfer-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-payment-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-support-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-page-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-card-payment-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-card-payment-64.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
